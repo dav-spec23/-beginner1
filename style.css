@@ -1,0 +1,100 @@
+<body{
+    font-family: 'Arial', sans-sarif;
+    background-color: #fofofo;
+    margin:0;
+    padding:0;
+    
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+section{
+    
+    margin: 20px;
+
+}
+img{
+    text-align: center;
+}
+.round-image-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+
+}
+.round-image{
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+
+
+
+h1{
+    color: #d13333;
+    font-size: large;
+
+}
+p{
+    line-height:1.5;
+    color:blue
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.slider-container{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+}
+.slide{
+    display: inline-flex;
+
+}
+img{
+    width:400px;
+
+}
+.fade{
+    animation: 1.5s ease-in-out infinite;
+
+ form {
+    margin-bottom: 20px;
+ }
+ label {
+
+    display: block;
+    margin-bottom: 8px;
+ }
+
+ imput textarea{
+    width: 100%;
+    padding : 8px;
+    margin-bottom: 16px;
+ }
+ button{
+    padding: 10px;
+    background-color: #333;
+    color: rgb(210, 210, 233);
+border: none;
+cursor: pointer;
+ }
+ button :hover{
+    background-color: #333;
+ }
+@keyframes fade{
+    from{opacity: o.4;}
+    to{opaity:1;}
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
